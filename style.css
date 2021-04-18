@@ -38,7 +38,7 @@
 
 /* EXPERIENCE */
 
-.experience{
+.experience, .education{
     margin-top: 30px;
     display: grid;
     grid-template-columns: 75% 25%;
@@ -47,7 +47,7 @@
 }
 
 
-.right-exp h3{
+.right-exp h3, .right-edu h3{
     text-transform: uppercase;
     font-size: 1.2rem;
     color: #2079C8;
@@ -60,7 +60,7 @@ i{
 }
 
 
-.exp-box h4{
+.exp-box h4, .edu-box h4{
     font-size: small;
     font-size: .97rem;
 }
@@ -70,17 +70,17 @@ i{
     font-size: 14px;
 }
 
-.exp-box ul{
+.exp-box ul, .edu-box ul{
     color: #666;
     padding: 1em 15em 1em 1em;
 }
 
-.exp-box li{
+.exp-box li, .edu-box li{
     font-size: 14px;
 }
 
 
-.left-exp{
+.left-exp, .left-edu{
     margin-right: 15px;
 }
 
@@ -88,14 +88,14 @@ i{
     margin-bottom: 10px;
 }
 
-.skill-box h4{
+.skill-box h4, .language-box h4{
     text-transform: uppercase;
     font-size: 1rem;
     color: #2079C8;
     font-family: 'Open Sans';
 }
 
-.skill-box p{
+.skill-box p, .language-box p   {
     font-size: 12px;
     color: #666;
     padding-right: 39px;
@@ -105,3 +105,6 @@ i{
 .skill-box span{
     font-weight: 700;
 }
+
+
+/* EDUCATION */
